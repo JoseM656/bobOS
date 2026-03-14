@@ -1,0 +1,8 @@
+[package]
+name = "move"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "move"
+path = "src/main.rs"

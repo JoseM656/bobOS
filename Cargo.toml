@@ -1,0 +1,22 @@
+[package]
+name = "bobos"
+version = "0.1.0"
+edition = "2024"
+
+
+[workspace]
+members = [
+    "initland",
+    "systemland/kernel",
+    "systemland/shell",
+    "systemland/utilities/dir",
+    "systemland/utilities/create",
+    "systemland/utilities/delete",
+    "systemland/utilities/move",
+    "systemland/utilities/copy",
+    "systemland/utilities/pwd",
+]
+resolver = "2"
+
+
+[dependencies]
