@@ -1,9 +1,3 @@
-[package]
-name = "bobos"
-version = "0.1.0"
-edition = "2024"
-
-
 [workspace]
 members = [
     "initland",
@@ -19,4 +13,4 @@ members = [
 resolver = "2"
 
 
-[dependencies]
+

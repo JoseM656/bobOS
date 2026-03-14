@@ -1,0 +1,8 @@
+[build]
+target = "i686-unknown-linux-gnu"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
